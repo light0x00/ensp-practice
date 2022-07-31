@@ -9,7 +9,7 @@ ip add 10.0.0.1 8
 int g0/0/1
 ip add 196.168.0.1 16
 
-ip route-static 0.0.0.0 0 10.0.0.2
+ip route-static 0.0.0.0 0 10.0.0.2      # 默认路由
 ```
 
 R2 
@@ -23,5 +23,5 @@ ip add 10.0.0.2 8
 int g0/0/1
 ip add 172.16.0.1 16
 
-ip route-static 0.0.0.0 0 10.0.0.1
-```
+ip route-static 0.0.0.0 0 10.0.0.1  # 默认路由
+``` 

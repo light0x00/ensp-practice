@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UNICODE" ?>
 <topo version="1.2.00.510">
     <devices>
-        <dev id="E02F4B1E-628B-4e09-B1E5-F8FBE7DD92D5" name="AR1" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-98-68-7B" com_port="2000" bootmode="0" cx="375.000000" cy="334.000000" edit_left="402" edit_top="388">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="2" />
-                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
-            </slot>
-        </dev>
         <dev id="0C44F53D-717B-4735-9603-1550E0E88B3B" name="AR2" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-C8-72-57" com_port="2001" bootmode="0" cx="643.000000" cy="330.000000" edit_left="670" edit_top="384">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
@@ -16,6 +10,12 @@
         <dev id="DF8B2ECD-261D-4a87-AB0F-26F871B60859" name="PC1" poe="0" model="PC" settings=" -simpc_ip 192.168.0.2  -simpc_mask 255.255.0.0  -simpc_gateway 192.168.0.1  -simpc_mac 00-00-00-00-00-01  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-BB-6D-BB" com_port="0" bootmode="0" cx="170.000000" cy="422.000000" edit_left="197" edit_top="476">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="E02F4B1E-628B-4e09-B1E5-F8FBE7DD92D5" name="AR1" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-98-68-7B" com_port="2000" bootmode="0" cx="375.000000" cy="334.000000" edit_left="402" edit_top="388">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
             </slot>
         </dev>
     </devices>
